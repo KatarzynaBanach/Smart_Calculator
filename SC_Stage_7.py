@@ -2,7 +2,7 @@
 # STAGE 7
 
 import re
-
+help_mess = 'The program calculates expressions that use +, -, (), /, //, * and allows to save variables.'
 
 def assignment(action, values):
     patter = r'([\S ]*)=([\S ]*)'
@@ -66,7 +66,7 @@ def main():
                 print('Bye!')
                 break
             elif action == '/help':
-                print('The program calculates the sum or substraction of numbers.')
+                print(help_mess)
             else:
                 print('Unknown command')
         elif action.count('=') > 1:
