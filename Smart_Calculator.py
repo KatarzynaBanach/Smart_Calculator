@@ -1,5 +1,4 @@
 # SMART CALCULATOR - hyperskill
-# STAGE 7
 
 import re
 help_mess = 'The program calculates expressions that use +, -, (), /, //, * and allows to save variables.'
